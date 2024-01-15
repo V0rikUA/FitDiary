@@ -1,0 +1,31 @@
+{
+  "name": "fitdiary_backend",
+  "version": "1.0.0",
+  "description": "FitDiary is a simple web application designed to help individuals maintain a healthy lifestyle through basic fitness and diet advice.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V0rikUA/FitDiary.git"
+  },
+  "keywords": [
+    "FitTrack",
+    "Wellness",
+    "DietLog",
+    "Workout",
+    "Nutrition",
+    "Exercise",
+    "Lifestyle",
+    "FitJournal",
+    "GoalTrack",
+    "PlanFit"
+  ],
+  "author": "Dmitriy Kirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V0rikUA/FitDiary/issues"
+  },
+  "homepage": "https://github.com/V0rikUA/FitDiary#readme"
+}
