@@ -4,7 +4,7 @@
   "description": "FitDiary is a simple web application designed to help individuals maintain a healthy lifestyle through basic fitness and diet advice.",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,15 @@
   "bugs": {
     "url": "https://github.com/V0rikUA/FitDiary/issues"
   },
-  "homepage": "https://github.com/V0rikUA/FitDiary#readme"
+  "homepage": "https://github.com/V0rikUA/FitDiary#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "mongoose": "^8.0.4",
+    "pg": "^8.11.3"
+  }
 }
