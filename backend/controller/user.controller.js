@@ -2,17 +2,12 @@ const { _getUser, _addNewUser } = require("../models/user.models");
 const bcrypt = require("bcrypt");
 
 const getUserData = async (req, res) => {
-  const { email, password } = req.query;
-  const user = await _getUser(email)
+  const { email } = req.body;
+  await _getUser(email)
     .then((data) => {
-      if (bcrypt.compare(password, data.password_hash)) {
-        res.json(data);
-      } else {
-        res.status(401).send("incorrect password");
-      }
+      res.json(data);
     })
     .catch((err) => console.log(console.log(err)));
-  console.log(user);
 };
 
 const addNewUser = async (req, res) => {
